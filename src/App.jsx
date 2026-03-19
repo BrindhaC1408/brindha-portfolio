@@ -35,7 +35,7 @@ animate={{opacity:1,y:0}}
 transition={{duration:1}}
 >
 
-<img src="/profile.png" className="profile-pic"/>
+<img src={`${import.meta.env.BASE_URL}profile.png`} className="profile-pic"/>
 
 <h1>Brindha Chinnasamy</h1>
 
@@ -59,7 +59,7 @@ C#, .NET, Java and React.
 
 <div className="buttons">
 <a href="#projects">View Projects</a>
-<a href="/resume.pdf" download>Download Resume</a>
+<a href={`${import.meta.env.BASE_URL}resume.pdf`} download>Download Resume</a>
 </div>
 
 </motion.div>
