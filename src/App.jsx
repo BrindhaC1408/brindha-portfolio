@@ -63,7 +63,7 @@ function App() {
 
           <div className="buttons">
             <a href="#projects">View Projects</a>
-            <a href="/brindha-portfolio/resume.pdf" download>
+            <a href="/brindha-portfolio/resume_v2.pdf" download>
               Download Resume
             </a>
           </div>
